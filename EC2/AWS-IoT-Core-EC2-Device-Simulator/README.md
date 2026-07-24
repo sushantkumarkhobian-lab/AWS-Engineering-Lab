@@ -21,6 +21,32 @@ This project demonstrates secure IoT communication, MQTT messaging, certificate-
 
 ---
 
+# Screenshots
+
+## AWS IoT Thing
+
+The registered IoT Thing configured for secure MQTT communication.
+
+<img width="1908" height="512" alt="Screenshot 2026-07-21 190153" src="https://github.com/user-attachments/assets/d593f439-4d5e-48ac-8f1a-eeb13045236f" />
+
+---
+
+## EC2 Publisher Running
+
+The EC2 Ubuntu instance publishing simulated temperature and humidity readings to AWS IoT Core.
+
+<img width="686" height="692" alt="Screenshot 2026-07-21 095441" src="https://github.com/user-attachments/assets/f61731b3-2286-4a2a-8789-eeba6a5cf880" />
+
+---
+
+## MQTT Test Client
+
+AWS IoT Core receiving telemetry published from the EC2 instance after subscribing to the `sensor/data` topic.
+
+<img width="1881" height="795" alt="Screenshot 2026-07-21 095602" src="https://github.com/user-attachments/assets/47a92029-6a46-4c59-93a6-e7eb3589614c" />
+
+---
+
 # Tech Stack
 
 ## Cloud
@@ -407,32 +433,6 @@ AWS-Engineering-Lab/
             ├── publisher.py
             └── README.md
 ```
-
----
-
-# Screenshots
-
-## AWS IoT Thing
-
-The registered IoT Thing configured for secure MQTT communication.
-
-<img width="1908" height="512" alt="Screenshot 2026-07-21 190153" src="https://github.com/user-attachments/assets/d593f439-4d5e-48ac-8f1a-eeb13045236f" />
-
----
-
-## EC2 Publisher Running
-
-The EC2 Ubuntu instance publishing simulated temperature and humidity readings to AWS IoT Core.
-
-<img width="686" height="692" alt="Screenshot 2026-07-21 095441" src="https://github.com/user-attachments/assets/f61731b3-2286-4a2a-8789-eeba6a5cf880" />
-
----
-
-## MQTT Test Client
-
-AWS IoT Core receiving telemetry published from the EC2 instance after subscribing to the `sensor/data` topic.
-
-<img width="1881" height="795" alt="Screenshot 2026-07-21 095602" src="https://github.com/user-attachments/assets/47a92029-6a46-4c59-93a6-e7eb3589614c" />
 
 ---
 
