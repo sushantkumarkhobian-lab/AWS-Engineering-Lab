@@ -1,0 +1,17 @@
+{
+  "name": "s3-uploader-backend",
+  "version": "1.0.0",
+  "description": "Node.js Express backend — receives files and uploads them to AWS S3",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.600.0",
+    "@aws-sdk/s3-request-presigner": "^3.1094.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
