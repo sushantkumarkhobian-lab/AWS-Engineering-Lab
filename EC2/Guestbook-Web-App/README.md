@@ -22,6 +22,81 @@ The objective of this project is to demonstrate the complete deployment workflow
 
 ---
 
+# Screenshots
+
+---
+
+## Local application
+  
+<img width="1918" height="960" alt="Screenshot 2026-07-17 200214" src="https://github.com/user-attachments/assets/5a929c14-5ffb-4921-920b-582a7a61900c" />
+
+<img width="1918" height="961" alt="Screenshot 2026-07-17 200222" src="https://github.com/user-attachments/assets/2d62f965-3499-41f3-999a-58e64d4e2044" />
+
+<img width="1918" height="962" alt="Screenshot 2026-07-17 200234" src="https://github.com/user-attachments/assets/c9c128d4-57d7-4117-90ac-b4b3b857b503" />
+
+<img width="1917" height="992" alt="Screenshot 2026-07-17 200308" src="https://github.com/user-attachments/assets/68a27e85-f8ef-474b-8c22-db24fc259d44" />
+
+---
+  
+## EC2 instance running
+
+<img width="1918" height="853" alt="Screenshot 2026-07-17 213145" src="https://github.com/user-attachments/assets/00f7b8cb-fd8a-49f2-9c76-cf66ed7d39e6" />
+
+<img width="1235" height="312" alt="Screenshot 2026-07-17 213201" src="https://github.com/user-attachments/assets/8ecaf497-2c1c-4206-88df-86ee831c4be6" />
+
+<img width="1241" height="242" alt="Screenshot 2026-07-17 213208" src="https://github.com/user-attachments/assets/b6562f67-b5ed-4273-ab69-e229cbe36bf7" />
+
+<img width="736" height="705" alt="Screenshot 2026-07-17 213230" src="https://github.com/user-attachments/assets/be6e699a-a93f-41a3-b80e-afff393062dd" />
+
+<img width="887" height="806" alt="Screenshot 2026-07-17 213447" src="https://github.com/user-attachments/assets/eb43b62f-f5c9-4caa-8733-01b56fd38208" />
+
+<img width="873" height="492" alt="Screenshot 2026-07-17 213503" src="https://github.com/user-attachments/assets/d127f451-7adf-4718-a67a-c9a31df70ef2" />
+
+<img width="1575" height="142" alt="Screenshot 2026-07-17 213605" src="https://github.com/user-attachments/assets/7d0246f6-2e98-45d3-9ee3-f99771af36b4" />
+
+<img width="1575" height="197" alt="Screenshot 2026-07-17 213622" src="https://github.com/user-attachments/assets/1d42dd6d-9eac-4d8d-83f5-202122e2bc42" />
+
+---
+
+## SSH connection
+
+<img width="1231" height="901" alt="Screenshot 2026-07-19 164015" src="https://github.com/user-attachments/assets/e7cff740-8689-4fa1-ba3b-17395662d07f" />
+
+---
+## Backend server running
+
+<img width="1115" height="90" alt="Screenshot 2026-07-19 171640" src="https://github.com/user-attachments/assets/eecf5d04-4fc2-463f-aded-e1bcd431891a" />
+
+---
+
+## Frontend server running
+
+<img width="1890" height="452" alt="Screenshot 2026-07-19 172157" src="https://github.com/user-attachments/assets/e8dc8c1a-c417-405d-911a-e364c491bc6f" />
+
+---
+
+## MongoDB Atlas cluster
+
+<img width="1912" height="725" alt="Screenshot 2026-07-19 170923" src="https://github.com/user-attachments/assets/7aca2b54-f0ff-482e-8ff6-0bc279092193" />
+
+---
+
+## Stored database records
+
+<img width="1918" height="605" alt="Screenshot 2026-07-19 172000" src="https://github.com/user-attachments/assets/b077fe28-5021-4854-994a-64b88ce6d17e" />
+
+---
+
+## Website hosted on EC2
+
+<img width="1878" height="961" alt="Screenshot 2026-07-19 172013" src="https://github.com/user-attachments/assets/190a7055-0345-4bfe-9c18-5824a53564d4" />
+
+<img width="1876" height="962" alt="Screenshot 2026-07-19 172023" src="https://github.com/user-attachments/assets/f9317530-525c-49d2-b332-fc0b5b879a37" />
+
+<img width="1874" height="952" alt="Screenshot 2026-07-19 172032" src="https://github.com/user-attachments/assets/2752fb8a-1f0e-4eb0-8ae0-7a1caa3a7713" />
+
+---
+
 # Tech Stack
 
 ### Frontend
@@ -195,81 +270,6 @@ http://<EC2-Public-IP>:5173
 ```
 
 Submit a message and verify that it is stored in MongoDB Atlas and displayed on the website.
-
----
-
-# Screenshots
-
----
-
-## Local application
-  
-<img width="1918" height="960" alt="Screenshot 2026-07-17 200214" src="https://github.com/user-attachments/assets/5a929c14-5ffb-4921-920b-582a7a61900c" />
-
-<img width="1918" height="961" alt="Screenshot 2026-07-17 200222" src="https://github.com/user-attachments/assets/2d62f965-3499-41f3-999a-58e64d4e2044" />
-
-<img width="1918" height="962" alt="Screenshot 2026-07-17 200234" src="https://github.com/user-attachments/assets/c9c128d4-57d7-4117-90ac-b4b3b857b503" />
-
-<img width="1917" height="992" alt="Screenshot 2026-07-17 200308" src="https://github.com/user-attachments/assets/68a27e85-f8ef-474b-8c22-db24fc259d44" />
-
----
-  
-## EC2 instance running
-
-<img width="1918" height="853" alt="Screenshot 2026-07-17 213145" src="https://github.com/user-attachments/assets/00f7b8cb-fd8a-49f2-9c76-cf66ed7d39e6" />
-
-<img width="1235" height="312" alt="Screenshot 2026-07-17 213201" src="https://github.com/user-attachments/assets/8ecaf497-2c1c-4206-88df-86ee831c4be6" />
-
-<img width="1241" height="242" alt="Screenshot 2026-07-17 213208" src="https://github.com/user-attachments/assets/b6562f67-b5ed-4273-ab69-e229cbe36bf7" />
-
-<img width="736" height="705" alt="Screenshot 2026-07-17 213230" src="https://github.com/user-attachments/assets/be6e699a-a93f-41a3-b80e-afff393062dd" />
-
-<img width="887" height="806" alt="Screenshot 2026-07-17 213447" src="https://github.com/user-attachments/assets/eb43b62f-f5c9-4caa-8733-01b56fd38208" />
-
-<img width="873" height="492" alt="Screenshot 2026-07-17 213503" src="https://github.com/user-attachments/assets/d127f451-7adf-4718-a67a-c9a31df70ef2" />
-
-<img width="1575" height="142" alt="Screenshot 2026-07-17 213605" src="https://github.com/user-attachments/assets/7d0246f6-2e98-45d3-9ee3-f99771af36b4" />
-
-<img width="1575" height="197" alt="Screenshot 2026-07-17 213622" src="https://github.com/user-attachments/assets/1d42dd6d-9eac-4d8d-83f5-202122e2bc42" />
-
----
-
-## SSH connection
-
-<img width="1231" height="901" alt="Screenshot 2026-07-19 164015" src="https://github.com/user-attachments/assets/e7cff740-8689-4fa1-ba3b-17395662d07f" />
-
----
-## Backend server running
-
-<img width="1115" height="90" alt="Screenshot 2026-07-19 171640" src="https://github.com/user-attachments/assets/eecf5d04-4fc2-463f-aded-e1bcd431891a" />
-
----
-
-## Frontend server running
-
-<img width="1890" height="452" alt="Screenshot 2026-07-19 172157" src="https://github.com/user-attachments/assets/e8dc8c1a-c417-405d-911a-e364c491bc6f" />
-
----
-
-## MongoDB Atlas cluster
-
-<img width="1912" height="725" alt="Screenshot 2026-07-19 170923" src="https://github.com/user-attachments/assets/7aca2b54-f0ff-482e-8ff6-0bc279092193" />
-
----
-
-## Stored database records
-
-<img width="1918" height="605" alt="Screenshot 2026-07-19 172000" src="https://github.com/user-attachments/assets/b077fe28-5021-4854-994a-64b88ce6d17e" />
-
----
-
-## Website hosted on EC2
-
-<img width="1878" height="961" alt="Screenshot 2026-07-19 172013" src="https://github.com/user-attachments/assets/190a7055-0345-4bfe-9c18-5824a53564d4" />
-
-<img width="1876" height="962" alt="Screenshot 2026-07-19 172023" src="https://github.com/user-attachments/assets/f9317530-525c-49d2-b332-fc0b5b879a37" />
-
-<img width="1874" height="952" alt="Screenshot 2026-07-19 172032" src="https://github.com/user-attachments/assets/2752fb8a-1f0e-4eb0-8ae0-7a1caa3a7713" />
 
 ---
 
