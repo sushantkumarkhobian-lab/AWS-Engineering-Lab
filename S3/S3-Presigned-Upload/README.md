@@ -18,35 +18,25 @@ This architecture is widely used in production systems for document management, 
 
 ## User Interface
 
-> *Add screenshot here*
-
-```
-screenshots/ui.png
-```
+<img width="1895" height="898" alt="Screenshot 2026-08-04 205527" src="https://github.com/user-attachments/assets/f600d4ca-9048-4849-a841-6660313ad429" />
 
 ---
 
 ## File Uploaded Successfully
 
-<img width="1895" height="898" alt="Screenshot 2026-08-04 205527" src="https://github.com/user-attachments/assets/8dfd85f0-a22f-4ea6-b813-546a6bea2501" />
+<img width="1892" height="900" alt="Screenshot 2026-08-04 205603" src="https://github.com/user-attachments/assets/b1eeea35-cc16-47fe-8767-a0c028f0515d" />
 
 ---
 
 ## Backend Server Running
 
-<img width="1157" height="67" alt="Screenshot 2026-08-04 205511" src="https://github.com/user-attachments/assets/6e4940a3-7460-41d4-abba-3c9c12ad0d8c" />
+<img width="1157" height="67" alt="Screenshot 2026-08-04 205511" src="https://github.com/user-attachments/assets/faab3d80-7d6a-45e6-b9f8-424a5a34b85d" />
 
 ---
 
 ## Generated Presigned URL (Terminal / API)
 
-<img width="1445" height="231" alt="Screenshot 2026-08-04 205718" src="https://github.com/user-attachments/assets/88b75abe-1616-48e8-8a1a-f78b9e2f74e9" />
-
----
-
-## Successful upload to Bucket
-
-<img width="1892" height="900" alt="Screenshot 2026-08-04 205603" src="https://github.com/user-attachments/assets/8837af84-9adc-48eb-be97-00477bce1c22" />
+<img width="1445" height="231" alt="Screenshot 2026-08-04 205718" src="https://github.com/user-attachments/assets/c7a4d7bb-d0e8-4b0d-91f1-390830452694" />
 
 ---
 
