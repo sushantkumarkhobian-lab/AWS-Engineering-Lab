@@ -28,41 +28,25 @@ screenshots/ui.png
 
 ## File Uploaded Successfully
 
-> *Add screenshot here*
-
-```
-screenshots/upload-success.png
-```
+<img width="1895" height="898" alt="Screenshot 2026-08-04 205527" src="https://github.com/user-attachments/assets/8dfd85f0-a22f-4ea6-b813-546a6bea2501" />
 
 ---
 
 ## Backend Server Running
 
-> *Add screenshot here*
-
-```
-screenshots/backend-running.png
-```
+<img width="1157" height="67" alt="Screenshot 2026-08-04 205511" src="https://github.com/user-attachments/assets/6e4940a3-7460-41d4-abba-3c9c12ad0d8c" />
 
 ---
 
 ## Generated Presigned URL (Terminal / API)
 
-> *Add screenshot here*
-
-```
-screenshots/presigned-url.png
-```
+<img width="1445" height="231" alt="Screenshot 2026-08-04 205718" src="https://github.com/user-attachments/assets/88b75abe-1616-48e8-8a1a-f78b9e2f74e9" />
 
 ---
 
-## Amazon S3 Bucket
+## Successful upload to Bucket
 
-> *Add screenshot here*
-
-```
-screenshots/s3-bucket.png
-```
+<img width="1892" height="900" alt="Screenshot 2026-08-04 205603" src="https://github.com/user-attachments/assets/8837af84-9adc-48eb-be97-00477bce1c22" />
 
 ---
 
@@ -303,14 +287,8 @@ Through this project, you will understand:
 
 ---
 
-# 📜 License
-
-This project is released under the MIT License.
-
----
-
 ## 👨‍💻 Author
 
-**Sushant Kumar**
+**Sushant Kumar Khobian**
 
 AWS Engineering Lab • Cloud Computing • Embedded Systems • IoT • Full Stack Development
