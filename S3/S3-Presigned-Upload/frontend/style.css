@@ -1,0 +1,367 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Poppins,sans-serif;
+
+    background:#060606;
+
+    color:white;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.container{
+
+    width:1200px;
+
+    max-width:95%;
+
+}
+
+.title{
+
+    text-align:center;
+
+    margin-bottom:50px;
+
+}
+
+.title h1{
+
+    font-size:60px;
+
+    font-family:Orbitron;
+
+    color:#ffd500;
+
+    text-shadow:
+        0 0 10px #ffd500,
+        0 0 30px orange,
+        0 0 60px orange;
+
+}
+
+.title p{
+
+    margin-top:15px;
+
+    color:#bbbbbb;
+
+    font-size:17px;
+
+}
+
+.main{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:40px;
+
+}
+
+.card{
+
+    background:rgba(255,255,255,.03);
+
+    border:2px solid rgba(255,170,0,.35);
+
+    border-radius:20px;
+
+    backdrop-filter:blur(20px);
+
+    padding:35px;
+
+    box-shadow:
+        0 0 20px rgba(255,180,0,.18),
+        inset 0 0 20px rgba(255,180,0,.08);
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:
+        0 0 30px rgba(255,180,0,.3),
+        inset 0 0 25px rgba(255,180,0,.12);
+
+}
+
+.card h2{
+
+    color:#ffcb05;
+
+    margin-bottom:30px;
+
+    letter-spacing:2px;
+
+}
+
+/* ---------- Upload Box ---------- */
+
+.dropzone{
+
+    position:relative;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:280px;
+
+    border:2px dashed #ffd500;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,215,0,.08),
+            rgba(255,140,0,.05)
+        );
+
+    box-shadow:
+        inset 0 0 20px rgba(255,210,0,.12),
+        0 0 20px rgba(255,180,0,.15);
+
+    transition:.35s ease;
+
+}
+
+.dropzone::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:-2px;
+
+    background:linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,220,0,.45),
+        transparent
+    );
+
+    animation:borderGlow 4s linear infinite;
+
+    opacity:.4;
+
+}
+
+.dropzone>*{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.dropzone:hover{
+
+    transform:translateY(-4px);
+
+    border-color:#fff176;
+
+    box-shadow:
+        0 0 25px rgba(255,200,0,.4),
+        0 0 50px rgba(255,150,0,.25),
+        inset 0 0 30px rgba(255,220,0,.15);
+
+}
+
+@keyframes borderGlow{
+
+    from{
+
+        transform:translateX(-100%);
+
+    }
+
+    to{
+
+        transform:translateX(100%);
+
+    }
+
+}
+
+.icon{
+
+    font-size:80px;
+
+    margin-bottom:20px;
+
+    filter:drop-shadow(0 0 15px orange);
+
+}
+
+.dropzone p{
+
+    font-size:20px;
+
+    font-weight:600;
+
+    color:#ffd54f;
+
+    margin-bottom:25px;
+
+    letter-spacing:1px;
+
+}
+
+input[type=file]{
+
+    width:100%;
+
+    text-align:center;
+
+    color:white;
+
+    font-size:15px;
+
+}
+
+input[type=file]::file-selector-button{
+
+    background:
+        linear-gradient(
+            90deg,
+            #ffe600,
+            #ff9800
+        );
+
+    color:black;
+
+    border:none;
+
+    padding:12px 24px;
+
+    border-radius:12px;
+
+    font-size:15px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    margin-right:15px;
+
+}
+
+input[type=file]::file-selector-button:hover{
+
+    transform:scale(1.05);
+
+    box-shadow:
+        0 0 15px orange,
+        0 0 30px orange;
+
+}
+
+/* ---------- Upload Button ---------- */
+
+button{
+
+    margin-top:35px;
+
+    width:100%;
+
+    padding:18px;
+
+    border:none;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    color:black;
+
+    background:
+        linear-gradient(
+            90deg,
+            #ffe600,
+            orange
+        );
+
+    transition:.35s;
+
+}
+
+button:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:
+        0 0 20px orange,
+        0 0 45px orange;
+
+}
+
+/* ---------- Status ---------- */
+
+.status{
+
+    margin-top:25px;
+
+    font-size:20px;
+
+    color:#ffe600;
+
+    line-height:1.8;
+
+}
+
+.url{
+
+    margin-top:30px;
+
+    word-break:break-word;
+
+    color:white;
+
+    font-size:14px;
+
+    line-height:1.7;
+
+}
+
+.url b{
+
+    color:#ffd54f;
+
+}
+
+.url small{
+
+    color:#bbbbbb;
+
+}

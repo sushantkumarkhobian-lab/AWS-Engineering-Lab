@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S3 Presigned Upload</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="title">
+
+        <h1>S3 PRESIGNED UPLOAD</h1>
+
+        <p>
+            Upload files directly to Amazon S3 using secure Presigned URLs
+        </p>
+
+    </div>
+
+    <div class="main">
+
+        <div class="card">
+
+            <h2>UPLOAD FILE</h2>
+
+            <div class="dropzone">
+
+                <div class="icon">☁️</div>
+
+                <p>Choose File</p>
+
+                <input type="file" id="fileInput">
+
+            </div>
+
+            <button id="uploadBtn">
+
+                Upload to S3
+
+            </button>
+
+        </div>
+
+        <div class="card">
+
+            <h2>UPLOAD STATUS</h2>
+
+            <div class="status">
+
+                Waiting for upload...
+
+            </div>
+
+            <div class="url">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
