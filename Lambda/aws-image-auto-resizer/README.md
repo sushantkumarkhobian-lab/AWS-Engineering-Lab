@@ -12,31 +12,25 @@ This project demonstrates event-driven cloud architecture using AWS managed serv
 
 ### Lambda Function Overview
 
-> Insert screenshot showing the Lambda function overview and S3 trigger.
+<img width="1883" height="847" alt="image" src="https://github.com/user-attachments/assets/83f4c4fa-5ea4-4e3a-89f7-3baf04a8f77e" />
 
 ---
 
 ### S3 Upload Bucket
 
-> Insert screenshot showing the original uploaded image.
+<img width="1886" height="842" alt="image" src="https://github.com/user-attachments/assets/2a20cdbd-8fd0-4042-ac15-db69271406e6" />
 
 ---
 
 ### Lambda Layer
 
-> Insert screenshot showing the attached Pillow Lambda Layer.
+<img width="1903" height="847" alt="image" src="https://github.com/user-attachments/assets/3623f986-5a24-419b-b271-8a8593be2a05" />
 
 ---
 
 ### S3 Output Bucket
 
-> Insert screenshot showing the resized image.
-
----
-
-### CloudWatch Logs
-
-> Insert screenshot showing a successful Lambda execution.
+<img width="1890" height="846" alt="image" src="https://github.com/user-attachments/assets/99291ceb-1150-4eb3-8e6d-b54ef7aac856" />
 
 ---
 
